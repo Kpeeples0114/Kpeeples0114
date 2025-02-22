@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<htm lang="en>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width. initial-scale=1.0">
+  <title>Personal Website</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0;
+      background-color: red; 
+      color: white;
+    }
+    nav { 
+      background: yellow; 
+      padding: 10px; 
+      text-align: center;
+    }
+    nav a { 
+      color: white; 
+      margin: 10px; 
+      text-decoration: none; 
+      font-weight: bold;
+    }
+    .container { 
+      padding: 20px; 
+      text-align: center;
+    }
+   </style>
+  </head>
+<body>
+    <nav>
+        <a herf="index.html">Home</a>
+        <a herf="about.html">About Me</a>
+        <a herf="resume.html">Resume</a>
+        <a herf="contact.html">Contact Me</a>
+    </nav>
+    <div class="container">
+      <h1>Welcom to My Personal Website</h1>
+      <p> Take a look at some of my personal skills, experience, and overall journy in web development</p>
+    </div>
+</body>
+</html>
+<!-- about.html -->
+<! DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+  <nav>
+        <a herf="index.html">Home</a>
+        <a herf="about.html">About Me</a>
+        <a herf="resume.html">Resume</a>
+        <a herf="contact.html">Contact Me</a>
+  </nav>
+  <div class="container">
+    <h1>Cleo Peeples</h1>
+    <p>Hello there! My name is Cleo Peeples and I am a computer science mayjor, and I attend school at Blue Mountain College</p>
+    <p>In my free time I play soccer, play video games, and also take the time out of my day to get better with coding. I was born in memphis, but i completed highschool at Olive Branch High School. I got introduced to coding when I was in 8th grade and ever since then I've been in love with it. Now im willing to go to school and learn more about trying to make better codes for software. For future jobs I would love to be a software developer and help out with IT.</p>
+  </div>
+</body>
+</head>
+<!-- resume.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <nav>
+        <a herf="index.html">Home</a>
+        <a herf="about.html">About Me</a>
+        <a herf="resume.html">Resume</a>
+        <a herf="contact.html">Contact Me</a>
+  </nav>
+<h1>Your Name</h1>
+    <h2>Cleo Peeples. (901)431-2558</h2>
+    <p>Email:trellpeeples123@gmail.com</p>
+    <h2>Education</h2>
+    <p>Bachelor's in Computer Science, Blue mountain college University</p>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>GitHub</li>
+        <li>Python</li>
+    </ul>
+    <h2>Work Experience</h2>
+    <p>Web Development Intern, Toyota</p>
+</body>
+</html>
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Me</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>. 
