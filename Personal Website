@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0;
+      background-color: red; 
+      color: white;
+    }
+    nav { 
+      background: yellow; 
+      padding: 10px; 
+      text-align: center;
+    }
+    nav a { 
+      color: black; 
+      margin: 10px; 
+      text-decoration: none; 
+      font-weight: bold;
+    }
+    .container { 
+      padding: 20px; 
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="container">
+      <h1>Welcome to My Personal Website</h1>
+      <p>Take a look at some of my personal skills, experience, and overall journey in web development.</p>
+    </div>
+</body>
+</html>
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+  <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+  </nav>
+  <div class="container">
+    <h1>Cleo Peeples</h1>
+    <p>Hello there! My name is Cleo Peeples, and I am a computer science major attending Blue Mountain College.</p>
+    <p>In my free time, I play soccer, play video games, and also take time out of my day to get better at coding. I was born in Memphis but completed high school at Olive Branch High School. I was introduced to coding in 8th grade, and ever since then, I've been in love with it. Now, I'm pursuing a degree to learn more about software development. In the future, I aspire to become a software developer and contribute to the IT industry.</p>
+  </div>
+</body>
+</html>
+<!-- resume.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="container">
+        <h1>Cleo Peeples</h1>
+        <h2>(901) 431-2558</h2>
+        <p>Email: trellpeeples123@gmail.com</p>
+        
+        <h2>Education</h2>
+        <p>Bachelor's in Computer Science, Blue Mountain College</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>GitHub</li>
+            <li>Python</li>
+        </ul>
+        
+        <h2>Work Experience</h2>
+        <p>Web Development Intern, Toyota</p>
+    </div>
+</body>
+</html>
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: black;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, textarea {
+            width: 50%;
+            margin: 5px 0;
+            padding: 8px;
+        }
+        button {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
